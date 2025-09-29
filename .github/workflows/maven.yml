@@ -16,7 +16,7 @@ jobs:
         ports: ['5432:5432']
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
+          POSTGRES_PASSWORD: 59898060
           POSTGRES_DB: mairie_ticket
         options: >-
           --health-cmd "pg_isready -U postgres"
