@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:12
+    container_name: mairie_postgres
+    environment:
+      POSTGRES_DB: mairie_ticket
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 59898060
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
