@@ -21,7 +21,7 @@ public class Ticket {
 
     private String nomFemme;
 
-    private int montant = 500;
+    private int montant = 1000;
 
     private LocalDate date = LocalDate.now();
 }
